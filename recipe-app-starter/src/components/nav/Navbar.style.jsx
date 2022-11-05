@@ -21,9 +21,9 @@ export const Brand = styled(Link)`
 
 export const Menu = styled(Flex)`
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
-    flex-direction: column;
+    flex-direction:column;
     width: 100%;
-    max-height: ${({ isOpen }) => (isOpen ? "400px" : "0")};
+    max-height: ${({isOpen})=>(isOpen ? "400px" : "0")};
     overflow: hidden;
   }
 `;
