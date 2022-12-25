@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: "Girassol", cursive;
-        },
+        }
         body {
             font-size: 1.5rem;
         }
