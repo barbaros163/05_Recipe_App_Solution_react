@@ -1,8 +1,8 @@
 import React from "react";
 import {
   LoginContainer,
-  FormContainer,
   StyledImg,
+  FormContainer,
   Header,
   StyledInput,
   StyledForm,
@@ -10,7 +10,6 @@ import {
 } from "./Login.style";
 import { useNavigate } from "react-router-dom";
 import meal from "../../assets/meal.svg";
-
 const Login = () => {
   const navigate = useNavigate();
 
