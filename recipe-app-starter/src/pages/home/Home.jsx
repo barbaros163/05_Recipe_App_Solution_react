@@ -10,6 +10,7 @@ const Home = () => {
   const [query, setQuery] = useState("egg");
   const [selectedMeal, setSelectedMeal] = useState("breakfast");
   const [recipes, setRecipes] = useState("");
+  const mealType = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
 
   const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${selectedMeal}`;
 
@@ -25,7 +26,12 @@ const Home = () => {
 
   return (
     <div>
-      <Header setQuery={setQuery} />
+      <Header
+        setQuery={setQuery}
+        setSelectedMeal={setSelectedMeal}
+        mealType={mealType}
+        getData={getData}
+      />
     </div>
   );
 };
