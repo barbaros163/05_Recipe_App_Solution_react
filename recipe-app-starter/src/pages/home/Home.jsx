@@ -4,6 +4,8 @@ import axios from "axios";
 // import { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Cards from "../../components/cards/Cards";
+import { HeaderText, HomeImg, ImgDiv } from "./Home.style";
+import homeSvg from "../../assets/home.svg";
 
 const Home = () => {
   const APP_ID = "096eb4ac";
@@ -42,10 +44,12 @@ const Home = () => {
         getData={getData}
       />
 
-      {/* {!recipes && } */}
-      <Cards />
+      {!recipes && (
+        <ImgDiv>
+          <HomeImg src={homeSvg} />
+        </ImgDiv>
+      )}
     </div>
   );
 };
-
 export default Home;
