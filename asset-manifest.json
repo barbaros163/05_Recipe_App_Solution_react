@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/recipe_app_solution/static/css/main.073c9b0a.css",
-    "main.js": "/recipe_app_solution/static/js/main.d1715b30.js",
-    "static/js/787.941d7dfa.chunk.js": "/recipe_app_solution/static/js/787.941d7dfa.chunk.js",
-    "static/media/home.svg": "/recipe_app_solution/static/media/home.1df754a91058b06a083c263a0a25979e.svg",
-    "static/media/meal.svg": "/recipe_app_solution/static/media/meal.9eba888b37c920112c046969b9256a41.svg",
-    "static/media/default-image.jpg": "/recipe_app_solution/static/media/default-image.b0a1da719f55a04fc8b8.jpg",
-    "static/media/diet.svg": "/recipe_app_solution/static/media/diet.2f19967bdde3fbb1cbb98812d8f74cb2.svg",
-    "index.html": "/recipe_app_solution/index.html",
-    "main.073c9b0a.css.map": "/recipe_app_solution/static/css/main.073c9b0a.css.map",
-    "main.d1715b30.js.map": "/recipe_app_solution/static/js/main.d1715b30.js.map",
-    "787.941d7dfa.chunk.js.map": "/recipe_app_solution/static/js/787.941d7dfa.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.233a0332.js",
+    "static/js/787.941d7dfa.chunk.js": "/static/js/787.941d7dfa.chunk.js",
+    "static/media/home.svg": "/static/media/home.1df754a91058b06a083c263a0a25979e.svg",
+    "static/media/meal.svg": "/static/media/meal.9eba888b37c920112c046969b9256a41.svg",
+    "static/media/default-image.jpg": "/static/media/default-image.b0a1da719f55a04fc8b8.jpg",
+    "static/media/diet.svg": "/static/media/diet.2f19967bdde3fbb1cbb98812d8f74cb2.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.233a0332.js.map": "/static/js/main.233a0332.js.map",
+    "787.941d7dfa.chunk.js.map": "/static/js/787.941d7dfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d1715b30.js"
+    "static/js/main.233a0332.js"
   ]
 }
