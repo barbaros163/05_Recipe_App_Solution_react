@@ -16,7 +16,7 @@ HTML, CSS, JAVASCRIPT, REACT
 
 
 ## Demo
-https://barbaros163.github.io/recipe_app_solution/
+
 ## Feedback
 
 If you have any feedback, please reach out to me at barbaros1675@gmail.com
